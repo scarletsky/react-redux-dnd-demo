@@ -8,6 +8,8 @@ export const ToyTypes = {
   COMPOSITION: 'COMPOSITION'
 };
 
+export const sectionCounts = 3;
+
 export const initSection = {
   rows: 10,
   cols: 10

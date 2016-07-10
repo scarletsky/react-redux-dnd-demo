@@ -11,6 +11,7 @@ function sections(state = initState, action) {
       return assign({}, state, {
         [action.payload.id]: assign({}, {
           id: action.payload.id,
+          name: action.payload.id,
           rows: action.payload.rows || initSection.rows,
           cols: action.payload.cols || initSection.cols,
           rowIds: times(action.payload.rows || initSection.rows).map(v => `${action.payload.id}-${genPadId(v+1)}`)

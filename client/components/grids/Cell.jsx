@@ -17,7 +17,6 @@ const spec = {
     const { dispatch, cell, section } = props;
 
     if (cell.id !== props.hoverId) {
-      console.log(`cell.id: ${cell.id}  props.hoverId: ${props.hoverId}`);
       dispatch(updateSelectionHoverArea({
         cell,
         section,
