@@ -110,7 +110,7 @@ class Cell extends React.Component {
           height: 50,
           border: '1px solid',
           position: 'relative',
-          backgroundColor: ((isOver && canDrop) || (isInHoverArea && canDropInHoverArea)) ? 'green' : 'white'
+          backgroundColor: ((isOver && canDrop) || (isInHoverArea && canDropInHoverArea)) ? 'rgba(0,255,0,0.5)' : 'white'
       }}>
       {this.toy}
       </td>
