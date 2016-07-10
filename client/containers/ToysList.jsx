@@ -16,6 +16,7 @@ class ToysList extends React.Component {
           top: 0,
           right: 0
         }}>
+        <h1>Toys List</h1>
         {this.props.toysList.map((t, i) => <ToyWrapper key={i} toy={t} />)}
       </div>
     );

@@ -24,6 +24,7 @@ class Playground extends React.Component {
         style={{
           width: '80%'
         }}>
+        <h1>Playground</h1>
         {this.props.sectionIds.map((sectionId, i) => <Section id={sectionId} key={i} />)}
       </div>
     );
